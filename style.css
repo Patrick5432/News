@@ -131,6 +131,7 @@ body {
 
     .main-text {
         padding-top: 20px;
+        padding-left: 10px;
     }
 
     footer {
@@ -142,8 +143,12 @@ body {
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 364px) {
     .main-text-p {
+        font-size: 17px;
+    }
+
+    .data {
         font-size: 17px;
     }
 
@@ -152,12 +157,26 @@ body {
     }
 }
 
-@media screen and (max-width: 307px) {
+@media screen and (max-width: 323px) {
     .main-text-p {
-        font-size: 18px;
+        font-size: 17px;
+    }
+
+    .data {
+        font-size: 17px;
     }
 
     .main-text h1 {
         font-size: 21px;
+    }
+}
+
+@media screen and (max-width: 309px) {
+    .main-text-p {
+        font-size: 16px;
+    }
+
+    .main-text h1 {
+        font-size: 19px;
     }
 }
