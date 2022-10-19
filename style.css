@@ -142,7 +142,7 @@ body {
     }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 350px) {
     .main-text-p {
         font-size: 17px;
     }
@@ -154,10 +154,10 @@ body {
 
 @media screen and (max-width: 307px) {
     .main-text-p {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .main-text h1 {
-        font-size: 19px;
+        font-size: 21px;
     }
 }
