@@ -9,6 +9,7 @@
 
 a {
     text-decoration: none;
+    font-size: 20px;
 }
 
 li {
@@ -34,6 +35,13 @@ body {
     justify-content: center;
     flex-direction: column;
     padding-top: 180px;
+    margin: 0 auto;
+}
+
+.logo-img {
+    width: 100%;
+    max-width: 230px;
+    margin: 0 auto;
 }
 
 .logo-p {
@@ -43,17 +51,28 @@ body {
 }
 
 .text-news {
+    max-width: 700px;
     padding-top: 62px;
     display: flex;
+    margin: 0 auto;
 }
 
-.main-text {
+.text {
     width: 70%;
 }
 
 .main-text-p{
     font-size: 20px;
     padding-top: 24px;
+}
+
+.text-link {
+    padding-top: 20px;
+}
+
+.links:hover {
+    background-color: red;
+    color: white;
 }
 
 .main-text h1 {
@@ -68,12 +87,12 @@ body {
 .picture-pages {
     display: flex;
     flex-direction: column;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .pages {
     display: flex;
-    margin-left: 90px;
+    margin-left: 100px;
 }
 
 .arrow {
@@ -86,6 +105,7 @@ body {
 
 .nav-link {
     display: flex;
+    justify-content: center;
 }
 
 .nav-link-li {
