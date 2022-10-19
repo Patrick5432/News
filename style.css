@@ -112,3 +112,52 @@ body {
     margin-right: 15px;
     margin-left: 15px;
 }
+
+@media screen and (max-width: 689px) {
+    .text-news {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .logo{
+        width: 100%;
+        max-width: auto;
+    }
+
+    .pages {
+        margin: 0 auto;
+    }
+
+    .main-text {
+        padding-top: 20px;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .text-link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .main-text-p {
+        font-size: 17px;
+    }
+
+    .main-text h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 307px) {
+    .main-text-p {
+        font-size: 14px;
+    }
+
+    .main-text h1 {
+        font-size: 19px;
+    }
+}
